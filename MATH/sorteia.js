@@ -1,10 +1,9 @@
-function getRandomNumber (inicio,fim,interger){
-    inicio = inicio || 0
 
-    console.log(inicio,fim)
+function getRandomNumber(inicio = 0, fim = 10, integer = true) {
 
-    return undefined
+    let r = Math.random() * (fim - inicio + 1) + inicio
+    return integer ? parseInt(r) : r
 
 }
 
-console.log(getRandomNumber(0,10,false))
+console.log(getRandomNumber(2, 3, false))

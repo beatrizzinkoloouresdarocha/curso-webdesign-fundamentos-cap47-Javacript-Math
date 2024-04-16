@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +27,13 @@
 
     <h1>Atualize a página para alterar a imagem de fundo</h1>
 
-
+    <script src="sorteia.js"></script>
+    <script>
+        (function () {
+            let n = getRandomNumber(1, 5)
+            document.body.style.backgroundImage = `url(images/${n}.jpg)`
+        })()
+    </script>
 
 </body>
 
