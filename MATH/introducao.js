@@ -7,3 +7,5 @@ console.log(Math.round(45.50000001))
 
 console.log(Math.floor(49.9999999))
 console.log(Math.ceil(49.00000001))
+
+console.log(Math.pow(2,3))
