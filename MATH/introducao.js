@@ -10,3 +10,5 @@ console.log(Math.ceil(49.00000001))
 
 console.log(Math.pow(2,3))
 console.log(2**3)
+
+console.log(Math.sqrt(49))
